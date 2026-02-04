@@ -7,7 +7,6 @@ from graph.state import DecisionState
 
 app = FastAPI()
 
-# ✅ ADD THIS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173"],  # Vite dev server
